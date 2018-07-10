@@ -12,6 +12,11 @@ def mock_data():
         "territory_display_name": "Bhutan"
     },
     {
+        "iso4217_currencies": None,
+        "iso3166_country_code": None,
+        "territory_display_name": "Antarctica"
+    },
+    {
         "iso4217_currencies": "INR",
         "iso3166_country_code": "FK",
         "territory_display_name": "Fake Country With INR"

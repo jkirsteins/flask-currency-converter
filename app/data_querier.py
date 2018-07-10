@@ -10,6 +10,6 @@ class DataQuerier(object):
     def get_countries(self, currency_code):
         results = []
         for entry in self.data_object:
-            if currency_code in entry["iso4217_currencies"]:
+            if entry["iso4217_currencies"] is not None and currency_code in entry["iso4217_currencies"]:
                 results.append(entry["iso3166_country_code"])
         return results
