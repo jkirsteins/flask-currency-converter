@@ -7,7 +7,9 @@ from flask import Flask
 from flask import request
 from flask_injector import FlaskInjector
 
-def create_injector_modules(logger):
+from data_querier import DataQuerier
+
+def create_injector_modules(logger, country_data_object):
     """Generate modules for the 'injector' dependency injection.
 
     In this example, it only injects the logger dependency.
@@ -20,6 +22,14 @@ def create_injector_modules(logger):
         binder.bind(
             logging.Logger,
             to=logger,
+            scope=request
+        )
+
+    def configure_data_querier(binder):
+        data_querier = DataQuerier(country_data_object)
+        binder.bind(
+            DataQuerier,
+            to=data_querier,
             scope=request
         )
 

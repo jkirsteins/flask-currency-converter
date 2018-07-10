@@ -2,8 +2,11 @@
 """Configuration."""
 
 import os
+import json
 
-# TEST_VAL = os.environ.get("TEST_VAL", default=None)
-# if not TEST_VAL:
-#     raise ValueError("Please set the TEST_VAL environment variable")
+COUNTRY_DATA_JSON = os.environ.get("COUNTRY_DATA_JSON", default=None)
+if not COUNTRY_DATA_JSON:
+    raise ValueError("Please set the COUNTRY_DATA_JSON environment variable")
 
+with open(COUNTRY_DATA_JSON) as f:
+    COUNTRY_DATA = json.load(f)

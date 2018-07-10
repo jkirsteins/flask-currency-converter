@@ -1,0 +1,1252 @@
+[
+  {
+    "iso4217_currencies": null,
+    "iso3166_country_code": "TW",
+    "territory_display_name": "Taiwan"
+  },
+  {
+    "iso4217_currencies": "AFN",
+    "iso3166_country_code": "AF",
+    "territory_display_name": "Afghanistan"
+  },
+  {
+    "iso4217_currencies": "ALL",
+    "iso3166_country_code": "AL",
+    "territory_display_name": "Albania"
+  },
+  {
+    "iso4217_currencies": "DZD",
+    "iso3166_country_code": "DZ",
+    "territory_display_name": "Algeria"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "AS",
+    "territory_display_name": "American Samoa"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "AD",
+    "territory_display_name": "Andorra"
+  },
+  {
+    "iso4217_currencies": "AOA",
+    "iso3166_country_code": "AO",
+    "territory_display_name": "Angola"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "AI",
+    "territory_display_name": "Anguilla"
+  },
+  {
+    "iso4217_currencies": null,
+    "iso3166_country_code": "AQ",
+    "territory_display_name": "Antarctica"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "AG",
+    "territory_display_name": "Antigua & Barbuda"
+  },
+  {
+    "iso4217_currencies": "ARS",
+    "iso3166_country_code": "AR",
+    "territory_display_name": "Argentina"
+  },
+  {
+    "iso4217_currencies": "AMD",
+    "iso3166_country_code": "AM",
+    "territory_display_name": "Armenia"
+  },
+  {
+    "iso4217_currencies": "AWG",
+    "iso3166_country_code": "AW",
+    "territory_display_name": "Aruba"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "AU",
+    "territory_display_name": "Australia"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "AT",
+    "territory_display_name": "Austria"
+  },
+  {
+    "iso4217_currencies": "AZN",
+    "iso3166_country_code": "AZ",
+    "territory_display_name": "Azerbaijan"
+  },
+  {
+    "iso4217_currencies": "BSD",
+    "iso3166_country_code": "BS",
+    "territory_display_name": "Bahamas"
+  },
+  {
+    "iso4217_currencies": "BHD",
+    "iso3166_country_code": "BH",
+    "territory_display_name": "Bahrain"
+  },
+  {
+    "iso4217_currencies": "BDT",
+    "iso3166_country_code": "BD",
+    "territory_display_name": "Bangladesh"
+  },
+  {
+    "iso4217_currencies": "BBD",
+    "iso3166_country_code": "BB",
+    "territory_display_name": "Barbados"
+  },
+  {
+    "iso4217_currencies": "BYN",
+    "iso3166_country_code": "BY",
+    "territory_display_name": "Belarus"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "BE",
+    "territory_display_name": "Belgium"
+  },
+  {
+    "iso4217_currencies": "BZD",
+    "iso3166_country_code": "BZ",
+    "territory_display_name": "Belize"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "BJ",
+    "territory_display_name": "Benin"
+  },
+  {
+    "iso4217_currencies": "BMD",
+    "iso3166_country_code": "BM",
+    "territory_display_name": "Bermuda"
+  },
+  {
+    "iso4217_currencies": "INR,BTN",
+    "iso3166_country_code": "BT",
+    "territory_display_name": "Bhutan"
+  },
+  {
+    "iso4217_currencies": "BOB",
+    "iso3166_country_code": "BO",
+    "territory_display_name": "Bolivia"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "BQ",
+    "territory_display_name": "Caribbean Netherlands"
+  },
+  {
+    "iso4217_currencies": "BAM",
+    "iso3166_country_code": "BA",
+    "territory_display_name": "Bosnia"
+  },
+  {
+    "iso4217_currencies": "BWP",
+    "iso3166_country_code": "BW",
+    "territory_display_name": "Botswana"
+  },
+  {
+    "iso4217_currencies": "NOK",
+    "iso3166_country_code": "BV",
+    "territory_display_name": "Bouvet Island"
+  },
+  {
+    "iso4217_currencies": "BRL",
+    "iso3166_country_code": "BR",
+    "territory_display_name": "Brazil"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "IO",
+    "territory_display_name": "British Indian Ocean Territory"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "VG",
+    "territory_display_name": "British Virgin Islands"
+  },
+  {
+    "iso4217_currencies": "BND",
+    "iso3166_country_code": "BN",
+    "territory_display_name": "Brunei"
+  },
+  {
+    "iso4217_currencies": "BGN",
+    "iso3166_country_code": "BG",
+    "territory_display_name": "Bulgaria"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "BF",
+    "territory_display_name": "Burkina Faso"
+  },
+  {
+    "iso4217_currencies": "BIF",
+    "iso3166_country_code": "BI",
+    "territory_display_name": "Burundi"
+  },
+  {
+    "iso4217_currencies": "CVE",
+    "iso3166_country_code": "CV",
+    "territory_display_name": "Cape Verde"
+  },
+  {
+    "iso4217_currencies": "KHR",
+    "iso3166_country_code": "KH",
+    "territory_display_name": "Cambodia"
+  },
+  {
+    "iso4217_currencies": "XAF",
+    "iso3166_country_code": "CM",
+    "territory_display_name": "Cameroon"
+  },
+  {
+    "iso4217_currencies": "CAD",
+    "iso3166_country_code": "CA",
+    "territory_display_name": "Canada"
+  },
+  {
+    "iso4217_currencies": "KYD",
+    "iso3166_country_code": "KY",
+    "territory_display_name": "Cayman Islands"
+  },
+  {
+    "iso4217_currencies": "XAF",
+    "iso3166_country_code": "CF",
+    "territory_display_name": "Central African Republic"
+  },
+  {
+    "iso4217_currencies": "XAF",
+    "iso3166_country_code": "TD",
+    "territory_display_name": "Chad"
+  },
+  {
+    "iso4217_currencies": "CLP",
+    "iso3166_country_code": "CL",
+    "territory_display_name": "Chile"
+  },
+  {
+    "iso4217_currencies": "CNY",
+    "iso3166_country_code": "CN",
+    "territory_display_name": "China"
+  },
+  {
+    "iso4217_currencies": "HKD",
+    "iso3166_country_code": "HK",
+    "territory_display_name": "Hong Kong"
+  },
+  {
+    "iso4217_currencies": "MOP",
+    "iso3166_country_code": "MO",
+    "territory_display_name": "Macau"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "CX",
+    "territory_display_name": "Christmas Island"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "CC",
+    "territory_display_name": "Cocos (Keeling) Islands"
+  },
+  {
+    "iso4217_currencies": "COP",
+    "iso3166_country_code": "CO",
+    "territory_display_name": "Colombia"
+  },
+  {
+    "iso4217_currencies": "KMF",
+    "iso3166_country_code": "KM",
+    "territory_display_name": "Comoros"
+  },
+  {
+    "iso4217_currencies": "XAF",
+    "iso3166_country_code": "CG",
+    "territory_display_name": "Congo - Brazzaville"
+  },
+  {
+    "iso4217_currencies": "NZD",
+    "iso3166_country_code": "CK",
+    "territory_display_name": "Cook Islands"
+  },
+  {
+    "iso4217_currencies": "CRC",
+    "iso3166_country_code": "CR",
+    "territory_display_name": "Costa Rica"
+  },
+  {
+    "iso4217_currencies": "HRK",
+    "iso3166_country_code": "HR",
+    "territory_display_name": "Croatia"
+  },
+  {
+    "iso4217_currencies": "CUP,CUC",
+    "iso3166_country_code": "CU",
+    "territory_display_name": "Cuba"
+  },
+  {
+    "iso4217_currencies": "ANG",
+    "iso3166_country_code": "CW",
+    "territory_display_name": "Curaçao"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "CY",
+    "territory_display_name": "Cyprus"
+  },
+  {
+    "iso4217_currencies": "CZK",
+    "iso3166_country_code": "CZ",
+    "territory_display_name": "Czechia"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "CI",
+    "territory_display_name": "Côte d’Ivoire"
+  },
+  {
+    "iso4217_currencies": "KPW",
+    "iso3166_country_code": "KP",
+    "territory_display_name": "North Korea"
+  },
+  {
+    "iso4217_currencies": "CDF",
+    "iso3166_country_code": "CD",
+    "territory_display_name": "Congo - Kinshasa"
+  },
+  {
+    "iso4217_currencies": "DKK",
+    "iso3166_country_code": "DK",
+    "territory_display_name": "Denmark"
+  },
+  {
+    "iso4217_currencies": "DJF",
+    "iso3166_country_code": "DJ",
+    "territory_display_name": "Djibouti"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "DM",
+    "territory_display_name": "Dominica"
+  },
+  {
+    "iso4217_currencies": "DOP",
+    "iso3166_country_code": "DO",
+    "territory_display_name": "Dominican Republic"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "EC",
+    "territory_display_name": "Ecuador"
+  },
+  {
+    "iso4217_currencies": "EGP",
+    "iso3166_country_code": "EG",
+    "territory_display_name": "Egypt"
+  },
+  {
+    "iso4217_currencies": "SVC,USD",
+    "iso3166_country_code": "SV",
+    "territory_display_name": "El Salvador"
+  },
+  {
+    "iso4217_currencies": "XAF",
+    "iso3166_country_code": "GQ",
+    "territory_display_name": "Equatorial Guinea"
+  },
+  {
+    "iso4217_currencies": "ERN",
+    "iso3166_country_code": "ER",
+    "territory_display_name": "Eritrea"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "EE",
+    "territory_display_name": "Estonia"
+  },
+  {
+    "iso4217_currencies": "ETB",
+    "iso3166_country_code": "ET",
+    "territory_display_name": "Ethiopia"
+  },
+  {
+    "iso4217_currencies": null,
+    "iso3166_country_code": "FK",
+    "territory_display_name": "Falkland Islands"
+  },
+  {
+    "iso4217_currencies": "DKK",
+    "iso3166_country_code": "FO",
+    "territory_display_name": "Faroe Islands"
+  },
+  {
+    "iso4217_currencies": "FJD",
+    "iso3166_country_code": "FJ",
+    "territory_display_name": "Fiji"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "FI",
+    "territory_display_name": "Finland"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "FR",
+    "territory_display_name": "France"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "GF",
+    "territory_display_name": "French Guiana"
+  },
+  {
+    "iso4217_currencies": "XPF",
+    "iso3166_country_code": "PF",
+    "territory_display_name": "French Polynesia"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "TF",
+    "territory_display_name": "French Southern Territories"
+  },
+  {
+    "iso4217_currencies": "XAF",
+    "iso3166_country_code": "GA",
+    "territory_display_name": "Gabon"
+  },
+  {
+    "iso4217_currencies": "GMD",
+    "iso3166_country_code": "GM",
+    "territory_display_name": "Gambia"
+  },
+  {
+    "iso4217_currencies": "GEL",
+    "iso3166_country_code": "GE",
+    "territory_display_name": "Georgia"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "DE",
+    "territory_display_name": "Germany"
+  },
+  {
+    "iso4217_currencies": "GHS",
+    "iso3166_country_code": "GH",
+    "territory_display_name": "Ghana"
+  },
+  {
+    "iso4217_currencies": "GIP",
+    "iso3166_country_code": "GI",
+    "territory_display_name": "Gibraltar"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "GR",
+    "territory_display_name": "Greece"
+  },
+  {
+    "iso4217_currencies": "DKK",
+    "iso3166_country_code": "GL",
+    "territory_display_name": "Greenland"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "GD",
+    "territory_display_name": "Grenada"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "GP",
+    "territory_display_name": "Guadeloupe"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "GU",
+    "territory_display_name": "Guam"
+  },
+  {
+    "iso4217_currencies": "GTQ",
+    "iso3166_country_code": "GT",
+    "territory_display_name": "Guatemala"
+  },
+  {
+    "iso4217_currencies": "GBP",
+    "iso3166_country_code": "GG",
+    "territory_display_name": "Guernsey"
+  },
+  {
+    "iso4217_currencies": "GNF",
+    "iso3166_country_code": "GN",
+    "territory_display_name": "Guinea"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "GW",
+    "territory_display_name": "Guinea-Bissau"
+  },
+  {
+    "iso4217_currencies": "GYD",
+    "iso3166_country_code": "GY",
+    "territory_display_name": "Guyana"
+  },
+  {
+    "iso4217_currencies": "HTG,USD",
+    "iso3166_country_code": "HT",
+    "territory_display_name": "Haiti"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "HM",
+    "territory_display_name": "Heard & McDonald Islands"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "VA",
+    "territory_display_name": "Vatican City"
+  },
+  {
+    "iso4217_currencies": "HNL",
+    "iso3166_country_code": "HN",
+    "territory_display_name": "Honduras"
+  },
+  {
+    "iso4217_currencies": "HUF",
+    "iso3166_country_code": "HU",
+    "territory_display_name": "Hungary"
+  },
+  {
+    "iso4217_currencies": "ISK",
+    "iso3166_country_code": "IS",
+    "territory_display_name": "Iceland"
+  },
+  {
+    "iso4217_currencies": "INR",
+    "iso3166_country_code": "IN",
+    "territory_display_name": "India"
+  },
+  {
+    "iso4217_currencies": "IDR",
+    "iso3166_country_code": "ID",
+    "territory_display_name": "Indonesia"
+  },
+  {
+    "iso4217_currencies": "IRR",
+    "iso3166_country_code": "IR",
+    "territory_display_name": "Iran"
+  },
+  {
+    "iso4217_currencies": "IQD",
+    "iso3166_country_code": "IQ",
+    "territory_display_name": "Iraq"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "IE",
+    "territory_display_name": "Ireland"
+  },
+  {
+    "iso4217_currencies": "GBP",
+    "iso3166_country_code": "IM",
+    "territory_display_name": "Isle of Man"
+  },
+  {
+    "iso4217_currencies": "ILS",
+    "iso3166_country_code": "IL",
+    "territory_display_name": "Israel"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "IT",
+    "territory_display_name": "Italy"
+  },
+  {
+    "iso4217_currencies": "JMD",
+    "iso3166_country_code": "JM",
+    "territory_display_name": "Jamaica"
+  },
+  {
+    "iso4217_currencies": "JPY",
+    "iso3166_country_code": "JP",
+    "territory_display_name": "Japan"
+  },
+  {
+    "iso4217_currencies": "GBP",
+    "iso3166_country_code": "JE",
+    "territory_display_name": "Jersey"
+  },
+  {
+    "iso4217_currencies": "JOD",
+    "iso3166_country_code": "JO",
+    "territory_display_name": "Jordan"
+  },
+  {
+    "iso4217_currencies": "KZT",
+    "iso3166_country_code": "KZ",
+    "territory_display_name": "Kazakhstan"
+  },
+  {
+    "iso4217_currencies": "KES",
+    "iso3166_country_code": "KE",
+    "territory_display_name": "Kenya"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "KI",
+    "territory_display_name": "Kiribati"
+  },
+  {
+    "iso4217_currencies": "KWD",
+    "iso3166_country_code": "KW",
+    "territory_display_name": "Kuwait"
+  },
+  {
+    "iso4217_currencies": "KGS",
+    "iso3166_country_code": "KG",
+    "territory_display_name": "Kyrgyzstan"
+  },
+  {
+    "iso4217_currencies": "LAK",
+    "iso3166_country_code": "LA",
+    "territory_display_name": "Laos"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "LV",
+    "territory_display_name": "Latvia"
+  },
+  {
+    "iso4217_currencies": "LBP",
+    "iso3166_country_code": "LB",
+    "territory_display_name": "Lebanon"
+  },
+  {
+    "iso4217_currencies": "LSL,ZAR",
+    "iso3166_country_code": "LS",
+    "territory_display_name": "Lesotho"
+  },
+  {
+    "iso4217_currencies": "LRD",
+    "iso3166_country_code": "LR",
+    "territory_display_name": "Liberia"
+  },
+  {
+    "iso4217_currencies": "LYD",
+    "iso3166_country_code": "LY",
+    "territory_display_name": "Libya"
+  },
+  {
+    "iso4217_currencies": "CHF",
+    "iso3166_country_code": "LI",
+    "territory_display_name": "Liechtenstein"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "LT",
+    "territory_display_name": "Lithuania"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "LU",
+    "territory_display_name": "Luxembourg"
+  },
+  {
+    "iso4217_currencies": "MGA",
+    "iso3166_country_code": "MG",
+    "territory_display_name": "Madagascar"
+  },
+  {
+    "iso4217_currencies": "MWK",
+    "iso3166_country_code": "MW",
+    "territory_display_name": "Malawi"
+  },
+  {
+    "iso4217_currencies": "MYR",
+    "iso3166_country_code": "MY",
+    "territory_display_name": "Malaysia"
+  },
+  {
+    "iso4217_currencies": "MVR",
+    "iso3166_country_code": "MV",
+    "territory_display_name": "Maldives"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "ML",
+    "territory_display_name": "Mali"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "MT",
+    "territory_display_name": "Malta"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "MH",
+    "territory_display_name": "Marshall Islands"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "MQ",
+    "territory_display_name": "Martinique"
+  },
+  {
+    "iso4217_currencies": "MRO",
+    "iso3166_country_code": "MR",
+    "territory_display_name": "Mauritania"
+  },
+  {
+    "iso4217_currencies": "MUR",
+    "iso3166_country_code": "MU",
+    "territory_display_name": "Mauritius"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "YT",
+    "territory_display_name": "Mayotte"
+  },
+  {
+    "iso4217_currencies": "MXN",
+    "iso3166_country_code": "MX",
+    "territory_display_name": "Mexico"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "FM",
+    "territory_display_name": "Micronesia"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "MC",
+    "territory_display_name": "Monaco"
+  },
+  {
+    "iso4217_currencies": "MNT",
+    "iso3166_country_code": "MN",
+    "territory_display_name": "Mongolia"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "ME",
+    "territory_display_name": "Montenegro"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "MS",
+    "territory_display_name": "Montserrat"
+  },
+  {
+    "iso4217_currencies": "MAD",
+    "iso3166_country_code": "MA",
+    "territory_display_name": "Morocco"
+  },
+  {
+    "iso4217_currencies": "MZN",
+    "iso3166_country_code": "MZ",
+    "territory_display_name": "Mozambique"
+  },
+  {
+    "iso4217_currencies": "MMK",
+    "iso3166_country_code": "MM",
+    "territory_display_name": "Myanmar"
+  },
+  {
+    "iso4217_currencies": "NAD,ZAR",
+    "iso3166_country_code": "NA",
+    "territory_display_name": "Namibia"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "NR",
+    "territory_display_name": "Nauru"
+  },
+  {
+    "iso4217_currencies": "NPR",
+    "iso3166_country_code": "NP",
+    "territory_display_name": "Nepal"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "NL",
+    "territory_display_name": "Netherlands"
+  },
+  {
+    "iso4217_currencies": "XPF",
+    "iso3166_country_code": "NC",
+    "territory_display_name": "New Caledonia"
+  },
+  {
+    "iso4217_currencies": "NZD",
+    "iso3166_country_code": "NZ",
+    "territory_display_name": "New Zealand"
+  },
+  {
+    "iso4217_currencies": "NIO",
+    "iso3166_country_code": "NI",
+    "territory_display_name": "Nicaragua"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "NE",
+    "territory_display_name": "Niger"
+  },
+  {
+    "iso4217_currencies": "NGN",
+    "iso3166_country_code": "NG",
+    "territory_display_name": "Nigeria"
+  },
+  {
+    "iso4217_currencies": "NZD",
+    "iso3166_country_code": "NU",
+    "territory_display_name": "Niue"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "NF",
+    "territory_display_name": "Norfolk Island"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "MP",
+    "territory_display_name": "Northern Mariana Islands"
+  },
+  {
+    "iso4217_currencies": "NOK",
+    "iso3166_country_code": "NO",
+    "territory_display_name": "Norway"
+  },
+  {
+    "iso4217_currencies": "OMR",
+    "iso3166_country_code": "OM",
+    "territory_display_name": "Oman"
+  },
+  {
+    "iso4217_currencies": "PKR",
+    "iso3166_country_code": "PK",
+    "territory_display_name": "Pakistan"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "PW",
+    "territory_display_name": "Palau"
+  },
+  {
+    "iso4217_currencies": "PAB,USD",
+    "iso3166_country_code": "PA",
+    "territory_display_name": "Panama"
+  },
+  {
+    "iso4217_currencies": "PGK",
+    "iso3166_country_code": "PG",
+    "territory_display_name": "Papua New Guinea"
+  },
+  {
+    "iso4217_currencies": "PYG",
+    "iso3166_country_code": "PY",
+    "territory_display_name": "Paraguay"
+  },
+  {
+    "iso4217_currencies": "PEN",
+    "iso3166_country_code": "PE",
+    "territory_display_name": "Peru"
+  },
+  {
+    "iso4217_currencies": "PHP",
+    "iso3166_country_code": "PH",
+    "territory_display_name": "Philippines"
+  },
+  {
+    "iso4217_currencies": "NZD",
+    "iso3166_country_code": "PN",
+    "territory_display_name": "Pitcairn Islands"
+  },
+  {
+    "iso4217_currencies": "PLN",
+    "iso3166_country_code": "PL",
+    "territory_display_name": "Poland"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "PT",
+    "territory_display_name": "Portugal"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "PR",
+    "territory_display_name": "Puerto Rico"
+  },
+  {
+    "iso4217_currencies": "QAR",
+    "iso3166_country_code": "QA",
+    "territory_display_name": "Qatar"
+  },
+  {
+    "iso4217_currencies": "KRW",
+    "iso3166_country_code": "KR",
+    "territory_display_name": "South Korea"
+  },
+  {
+    "iso4217_currencies": "MDL",
+    "iso3166_country_code": "MD",
+    "territory_display_name": "Moldova"
+  },
+  {
+    "iso4217_currencies": "RON",
+    "iso3166_country_code": "RO",
+    "territory_display_name": "Romania"
+  },
+  {
+    "iso4217_currencies": "RUB",
+    "iso3166_country_code": "RU",
+    "territory_display_name": "Russia"
+  },
+  {
+    "iso4217_currencies": "RWF",
+    "iso3166_country_code": "RW",
+    "territory_display_name": "Rwanda"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "RE",
+    "territory_display_name": "Réunion"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "BL",
+    "territory_display_name": "St. Barthélemy"
+  },
+  {
+    "iso4217_currencies": "SHP",
+    "iso3166_country_code": "SH",
+    "territory_display_name": "St. Helena"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "KN",
+    "territory_display_name": "St. Kitts & Nevis"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "LC",
+    "territory_display_name": "St. Lucia"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "MF",
+    "territory_display_name": "St. Martin"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "PM",
+    "territory_display_name": "St. Pierre & Miquelon"
+  },
+  {
+    "iso4217_currencies": "XCD",
+    "iso3166_country_code": "VC",
+    "territory_display_name": "St. Vincent & Grenadines"
+  },
+  {
+    "iso4217_currencies": "WST",
+    "iso3166_country_code": "WS",
+    "territory_display_name": "Samoa"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "SM",
+    "territory_display_name": "San Marino"
+  },
+  {
+    "iso4217_currencies": "STD",
+    "iso3166_country_code": "ST",
+    "territory_display_name": "São Tomé & Príncipe"
+  },
+  {
+    "iso4217_currencies": null,
+    "iso3166_country_code": null,
+    "territory_display_name": null
+  },
+  {
+    "iso4217_currencies": "SAR",
+    "iso3166_country_code": "SA",
+    "territory_display_name": "Saudi Arabia"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "SN",
+    "territory_display_name": "Senegal"
+  },
+  {
+    "iso4217_currencies": "RSD",
+    "iso3166_country_code": "RS",
+    "territory_display_name": "Serbia"
+  },
+  {
+    "iso4217_currencies": "SCR",
+    "iso3166_country_code": "SC",
+    "territory_display_name": "Seychelles"
+  },
+  {
+    "iso4217_currencies": "SLL",
+    "iso3166_country_code": "SL",
+    "territory_display_name": "Sierra Leone"
+  },
+  {
+    "iso4217_currencies": "SGD",
+    "iso3166_country_code": "SG",
+    "territory_display_name": "Singapore"
+  },
+  {
+    "iso4217_currencies": "ANG",
+    "iso3166_country_code": "SX",
+    "territory_display_name": "Sint Maarten"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "SK",
+    "territory_display_name": "Slovakia"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "SI",
+    "territory_display_name": "Slovenia"
+  },
+  {
+    "iso4217_currencies": "SBD",
+    "iso3166_country_code": "SB",
+    "territory_display_name": "Solomon Islands"
+  },
+  {
+    "iso4217_currencies": "SOS",
+    "iso3166_country_code": "SO",
+    "territory_display_name": "Somalia"
+  },
+  {
+    "iso4217_currencies": "ZAR",
+    "iso3166_country_code": "ZA",
+    "territory_display_name": "South Africa"
+  },
+  {
+    "iso4217_currencies": null,
+    "iso3166_country_code": "GS",
+    "territory_display_name": "South Georgia & South Sandwich Islands"
+  },
+  {
+    "iso4217_currencies": "SSP",
+    "iso3166_country_code": "SS",
+    "territory_display_name": "South Sudan"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "ES",
+    "territory_display_name": "Spain"
+  },
+  {
+    "iso4217_currencies": "LKR",
+    "iso3166_country_code": "LK",
+    "territory_display_name": "Sri Lanka"
+  },
+  {
+    "iso4217_currencies": null,
+    "iso3166_country_code": "PS",
+    "territory_display_name": "Palestine"
+  },
+  {
+    "iso4217_currencies": "SDG",
+    "iso3166_country_code": "SD",
+    "territory_display_name": "Sudan"
+  },
+  {
+    "iso4217_currencies": "SRD",
+    "iso3166_country_code": "SR",
+    "territory_display_name": "Suriname"
+  },
+  {
+    "iso4217_currencies": "NOK",
+    "iso3166_country_code": "SJ",
+    "territory_display_name": "Svalbard & Jan Mayen"
+  },
+  {
+    "iso4217_currencies": "SZL",
+    "iso3166_country_code": "SZ",
+    "territory_display_name": "Swaziland"
+  },
+  {
+    "iso4217_currencies": "SEK",
+    "iso3166_country_code": "SE",
+    "territory_display_name": "Sweden"
+  },
+  {
+    "iso4217_currencies": "CHF",
+    "iso3166_country_code": "CH",
+    "territory_display_name": "Switzerland"
+  },
+  {
+    "iso4217_currencies": "SYP",
+    "iso3166_country_code": "SY",
+    "territory_display_name": "Syria"
+  },
+  {
+    "iso4217_currencies": "TJS",
+    "iso3166_country_code": "TJ",
+    "territory_display_name": "Tajikistan"
+  },
+  {
+    "iso4217_currencies": "THB",
+    "iso3166_country_code": "TH",
+    "territory_display_name": "Thailand"
+  },
+  {
+    "iso4217_currencies": "MKD",
+    "iso3166_country_code": "MK",
+    "territory_display_name": "Macedonia"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "TL",
+    "territory_display_name": "Timor-Leste"
+  },
+  {
+    "iso4217_currencies": "XOF",
+    "iso3166_country_code": "TG",
+    "territory_display_name": "Togo"
+  },
+  {
+    "iso4217_currencies": "NZD",
+    "iso3166_country_code": "TK",
+    "territory_display_name": "Tokelau"
+  },
+  {
+    "iso4217_currencies": "TOP",
+    "iso3166_country_code": "TO",
+    "territory_display_name": "Tonga"
+  },
+  {
+    "iso4217_currencies": "TTD",
+    "iso3166_country_code": "TT",
+    "territory_display_name": "Trinidad & Tobago"
+  },
+  {
+    "iso4217_currencies": "TND",
+    "iso3166_country_code": "TN",
+    "territory_display_name": "Tunisia"
+  },
+  {
+    "iso4217_currencies": "TRY",
+    "iso3166_country_code": "TR",
+    "territory_display_name": "Turkey"
+  },
+  {
+    "iso4217_currencies": "TMT",
+    "iso3166_country_code": "TM",
+    "territory_display_name": "Turkmenistan"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "TC",
+    "territory_display_name": "Turks & Caicos Islands"
+  },
+  {
+    "iso4217_currencies": "AUD",
+    "iso3166_country_code": "TV",
+    "territory_display_name": "Tuvalu"
+  },
+  {
+    "iso4217_currencies": "UGX",
+    "iso3166_country_code": "UG",
+    "territory_display_name": "Uganda"
+  },
+  {
+    "iso4217_currencies": "UAH",
+    "iso3166_country_code": "UA",
+    "territory_display_name": "Ukraine"
+  },
+  {
+    "iso4217_currencies": "AED",
+    "iso3166_country_code": "AE",
+    "territory_display_name": "United Arab Emirates"
+  },
+  {
+    "iso4217_currencies": "GBP",
+    "iso3166_country_code": "GB",
+    "territory_display_name": "UK"
+  },
+  {
+    "iso4217_currencies": "TZS",
+    "iso3166_country_code": "TZ",
+    "territory_display_name": "Tanzania"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "UM",
+    "territory_display_name": "U.S. Outlying Islands"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "VI",
+    "territory_display_name": "U.S. Virgin Islands"
+  },
+  {
+    "iso4217_currencies": "USD",
+    "iso3166_country_code": "US",
+    "territory_display_name": "US"
+  },
+  {
+    "iso4217_currencies": "UYU",
+    "iso3166_country_code": "UY",
+    "territory_display_name": "Uruguay"
+  },
+  {
+    "iso4217_currencies": "UZS",
+    "iso3166_country_code": "UZ",
+    "territory_display_name": "Uzbekistan"
+  },
+  {
+    "iso4217_currencies": "VUV",
+    "iso3166_country_code": "VU",
+    "territory_display_name": "Vanuatu"
+  },
+  {
+    "iso4217_currencies": "VEF",
+    "iso3166_country_code": "VE",
+    "territory_display_name": "Venezuela"
+  },
+  {
+    "iso4217_currencies": "VND",
+    "iso3166_country_code": "VN",
+    "territory_display_name": "Vietnam"
+  },
+  {
+    "iso4217_currencies": "XPF",
+    "iso3166_country_code": "WF",
+    "territory_display_name": "Wallis & Futuna"
+  },
+  {
+    "iso4217_currencies": "MAD",
+    "iso3166_country_code": "EH",
+    "territory_display_name": "Western Sahara"
+  },
+  {
+    "iso4217_currencies": "YER",
+    "iso3166_country_code": "YE",
+    "territory_display_name": "Yemen"
+  },
+  {
+    "iso4217_currencies": "ZMW",
+    "iso3166_country_code": "ZM",
+    "territory_display_name": "Zambia"
+  },
+  {
+    "iso4217_currencies": "ZWL",
+    "iso3166_country_code": "ZW",
+    "territory_display_name": "Zimbabwe"
+  },
+  {
+    "iso4217_currencies": "EUR",
+    "iso3166_country_code": "AX",
+    "territory_display_name": "Åland Islands"
+  }
+]
