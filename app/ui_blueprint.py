@@ -53,8 +53,8 @@ def convert(currency_exchanger_source: InMemoryCachedCurrencyExchangers, data_qu
 
     if request.method == 'POST':
         try:
-            exchanger = currency_exchanger_source.get_exchanger_for_currency("sd")
-            converted_amount = exchanger.convert_amount_to(base_amount, "target_currency_code")
+            exchanger = currency_exchanger_source.get_exchanger_for_currency(base_currency_code)
+            converted_amount = exchanger.convert_amount_to(base_amount, target_currency_code)
         except MissingCurrencyException as error:
             flash("An invalid currency was specified: %s" % error)
         except HTTPError as error:
