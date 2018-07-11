@@ -11,12 +11,29 @@
 
 The current API is versioned simply via path, under "/api/v1". There are two endpoints:
 
-- the endpoint `/api/v1/country/<code>/currency` will return a JSON array of currency codes
+- the endpoint `GET /api/v1/country/<code>/currency` will return a JSON array of currency codes
   in-use in the given territory (identified by a 2-character **ISO3166** code, e.g. `US` or `GB`)
-- the endpoint `/api/v1/currency/<code>/country` will return a JSON array of country codes
+- the endpoint `GET /api/v1/currency/<code>/country` will return a JSON array of country codes
   that use the given currency (identified by a 3-character **ISO4217** code, e.g. `USD`, `GBP`, `EUR`)
+- the endpoint `GET /api/v1/currency/<code>/amount/<amount>` can be used to convert a value between currencies.
+  By default, this endpoint will return the specified amount in the specified currency, but it also accepts
+  a `?display_currency_code=...` query parameter.
+
+  Semantically, it is the same value, so the `?display_currency_code` parameter is a query parameter,
+  and not included in the URL.
+
+  This endpoint will set the Cache-Control response header to match the time the currency information is
+  expected to remain unchanged.
 
 ## Data sets
+
+### Currency exchange rates
+
+Exchange rates are downloaded from http://www.floatrates.com/json-feeds.html.
+
+The exchange rates are downloaded on first-request. No initialization is needed.
+
+### Countries and currency use
 
 The data for the territory<->country mapping is taken from https://datahub.io/core/country-codes#data.
 
