@@ -36,6 +36,11 @@ def test_getKnownCurrencies_returnsList_noDuplicates(data_querier):
     currencies = data_querier.get_known_currencies()
     assert sorted(["INR", "BTN"]) == sorted(currencies)
 
+def test_getKnownCountries_returnsList_noDuplicates(data_querier):
+    """Tests that all the known countries are returned as a list, without duplicates."""
+    countries = data_querier.get_known_countries()
+    assert sorted(["BT", "FK"]) == sorted(countries)
+
 def test_getCountriesForINR_returnsBoth(data_querier):
     """Tests that a valid notification is given to the dispatcher for processing."""
     currencies = data_querier.get_countries("INR")

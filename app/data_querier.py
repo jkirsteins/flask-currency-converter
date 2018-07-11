@@ -11,6 +11,10 @@ class DataQuerier(object):
         flat_list = [y for x in nested_list for y in x]
         return sorted(set(flat_list))
 
+    def get_known_countries(self):
+        unfiltered = map(lambda entry: entry["iso3166_country_code"], self.data_object)
+        return filter(lambda x: x is not None, unfiltered)
+
     def get_currencies(self, country_code):
         for entry in self.data_object:
             if entry["iso3166_country_code"] == country_code:
