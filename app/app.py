@@ -58,6 +58,11 @@ def create_app(additional_modules=None):
     app = Flask(__name__)
     app.config.from_object('app.config')
 
+    app.secret_key = app.config.get("SECRET_KEY")
+
+    from . import ui_blueprint
+    app.register_blueprint(ui_blueprint.bp)
+
     @app.errorhandler(MissingCurrencyException)
     def handle_invalid_usage(error):
         response = jsonify(error.to_dict())
@@ -71,7 +76,7 @@ def create_app(additional_modules=None):
 
     @app.route('/api/v1/currency/<base_currency_code>/amount/<int:base_amount>')
     def api_v1_currency_amount(base_currency_code, base_amount, currency_exchanger_source: InMemoryCachedCurrencyExchangers):
-        """API v1 method for returning the 3-char currency codes associated with a given 2 char territory code."""
+        """API v1 method for converting between currencies."""
         requested_display_currency_code = request.args.get('display_currency_code')
 
         exchanger = currency_exchanger_source.get_exchanger_for_currency(base_currency_code)

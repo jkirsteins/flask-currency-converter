@@ -7,7 +7,21 @@
 - currency codes are always 3-characters long (**ISO4217**)
 - country codes are always 2-characters long (**ISO3166**)
 
-## API endpoints
+## Notes for Future Revisions
+
+- the list of known currencies comes from a different source than the actual exchange rates,
+  so it is possible that an exchange rate for X is unavailable, even though we display it as an
+  option for the user.
+
+  For example, converting from BMD is an option, but the exchange rate source does not recognize this.
+
+## Endpoints
+
+### HTML / User-facing
+
+- the address `/ui/convert` will allow a user to convert between two currencies
+
+### API
 
 The current API is versioned simply via path, under "/api/v1". There are two endpoints:
 

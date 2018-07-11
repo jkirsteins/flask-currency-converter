@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Currency Conversion{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+
+    <label for="base_currency_code">Source Currency</label>
+    <select name="base_currency_code">
+        {% for c in known_currencies %}
+        <option value="{{ c }}" {% if c == base_currency_code: %}selected="selected"{% endif %}>{{ c }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="target_currency_code">Target Currency</label>
+    <select name="target_currency_code">
+        {% for c in known_currencies %}
+        <option value="{{ c }}" {% if c == target_currency_code: %}selected="selected"{% endif %}>{{ c }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="base_amount">Amount to Convert</label>
+    <input type="number" value="{{ base_amount }}" name="base_amount" />
+
+    <input type="submit" value="Convert">
+
+    {% if converted_amount is not none: %}
+      <p>{{ "%s %d is worth %s %d" % (base_currency_code, base_amount, target_currency_code, converted_amount) }}</p>
+    {% endif %}
+  </form>
+{% endblock %}

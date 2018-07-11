@@ -1,0 +1,38 @@
+import functools
+
+from flask import (
+    Blueprint, flash, g, redirect, render_template, request, url_for
+)
+from urllib.error import HTTPError
+from .data_querier import DataQuerier
+from .currency_exchanger import (
+    CurrencyExchanger, MissingCurrencyException, InMemoryCachedCurrencyExchangers, FloatRatesCurrencyDataSource
+)
+
+bp = Blueprint('ui', __name__, url_prefix='/ui')
+
+@bp.route('/convert', methods=('GET', 'POST'))
+def convert(currency_exchanger_source: InMemoryCachedCurrencyExchangers, data_querier: DataQuerier):
+    """View for converting between currencies."""
+
+    base_currency_code = request.form.get('base_currency_code')
+    target_currency_code = request.form.get('target_currency_code')
+    base_amount = request.form.get('base_amount')
+    base_amount = int(base_amount) if base_amount else 0
+    converted_amount = None
+
+    if request.method == 'POST':
+        try:
+            exchanger = currency_exchanger_source.get_exchanger_for_currency("sd")
+            converted_amount = exchanger.convert_amount_to(base_amount, "target_currency_code")
+        except MissingCurrencyException as error:
+            flash("An invalid currency was specified: %s" % error)
+        except HTTPError as error:
+            flash("Sorry, we can not perform currency conversion at this time.")
+
+    return render_template('convert.html',
+        known_currencies=data_querier.get_known_currencies(),
+        base_currency_code=base_currency_code,
+        base_amount=base_amount,
+        target_currency_code=target_currency_code,
+        converted_amount=converted_amount)
