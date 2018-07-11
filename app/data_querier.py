@@ -18,7 +18,9 @@ class DataQuerier(object):
     def get_currencies(self, country_code):
         for entry in self.data_object:
             if entry["iso3166_country_code"] == country_code:
+                if entry["iso4217_currencies"] is None: return None
                 return entry["iso4217_currencies"].split(",")
+        return None
 
     def get_countries(self, currency_code):
         results = []

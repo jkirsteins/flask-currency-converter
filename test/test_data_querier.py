@@ -31,6 +31,16 @@ def test_getCurrenciesForBT_returnBoth(data_querier):
     currencies = data_querier.get_currencies("BT")
     assert ["INR", "BTN"] == currencies
 
+def test_getCurrenciesForNone_returnNone(data_querier):
+    """Tests that if we pass in None for the country, we get back None. None is not the same as a missing value."""
+    currencies = data_querier.get_currencies(None)
+    assert None == currencies
+
+def test_getCurrenciesForUnknown_returnNone(data_querier):
+    """Tests that if we pass in an unknown country, we get back None."""
+    currencies = data_querier.get_currencies("UNK")
+    assert None == currencies
+
 def test_getKnownCurrencies_returnsList_noDuplicates(data_querier):
     """Tests that all the known currencies are returned as a list, without duplicates."""
     currencies = data_querier.get_known_currencies()
