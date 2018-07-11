@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Currency Lookup by Country{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+
+    <p>Specify a country, and we will find out which currencies are in use in it.</p>
+
+    <label for="country_code">Country</label>
+    <select name="country_code">
+        {% for c in known_countries %}
+        <option value="{{ c }}" {% if c == country_code: %}selected="selected"{% endif %}>{{ c }}</option>
+        {% endfor %}
+    </select>
+
+    <input type="submit" value="Find the Currencies">
+
+    {% if request.method == "POST": %}
+    <div>
+        {% if found_currencies is none or found_currencies|length == 0: %}
+            <p>We did not find any information about currencies in use in {{country_code}}.</p>
+        {% else %}
+            <p>{{ country_code}} uses the following currencies:</p>
+            <ul>
+            {% for currency in found_currencies %}
+                <li>{{currency}}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+    {% endif %}
+  </form>
+{% endblock %}

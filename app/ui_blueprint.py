@@ -26,6 +26,21 @@ def country_lookup(data_querier: DataQuerier):
         known_currencies=data_querier.get_known_currencies(),
         found_countries=found_countries)
 
+@bp.route('/currency_lookup', methods=('GET', 'POST'))
+def currency_lookup(data_querier: DataQuerier):
+    """View for looking up currencies that are in use in a given country."""
+
+    country_code = request.form.get('country_code')
+    found_currencies = None
+
+    if request.method == 'POST':
+        found_currencies = data_querier.get_currencies(country_code)
+
+    return render_template('currency_lookup.html',
+        country_code=country_code,
+        known_countries=data_querier.get_known_countries(),
+        found_currencies=found_currencies)
+
 @bp.route('/convert', methods=('GET', 'POST'))
 def convert(currency_exchanger_source: InMemoryCachedCurrencyExchangers, data_querier: DataQuerier):
     """View for converting between currencies."""
