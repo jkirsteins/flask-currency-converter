@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""This module contains DataQuerier - a class for matching currencies with
+their respective territories, and vice-versa."""
+
 class DataQuerier(object):
     def __init__(self, data_object):
         self.data_object = data_object

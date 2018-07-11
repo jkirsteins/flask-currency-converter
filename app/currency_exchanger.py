@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+"""This module contains classes for converting amounts between different currencies."""
+
 import json
 import datetime
 
@@ -26,9 +29,14 @@ class FloatRatesCurrencyDataSource(object):
     URL_TEMPLATE = "http://www.floatrates.com/daily/%s.json"
 
     def download_rates(self, currency_code):
-        """Download rate information. Returns an object with 'valid_from'/'valid_to' datetime keys, 'currency_code' and 'rates' keys.
-        Rates are a dict where target currency codes are (lowercase) keys and the values are an object with 'valid_from'/'valid_to' and 'rate' keys.
-        The final 'rate' key is a number that you can use to multiply with the root currency code to get the converted value."""
+        """Download rate information. Returns an object with 'valid_from'/'valid_to' datetime
+        keys, 'currency_code' and 'rates' keys.
+
+        Rates are a dict where target currency codes are (lowercase) keys and the values are
+        an object with 'valid_from'/'valid_to' and 'rate' keys.
+
+        The final 'rate' key is a number that you can use to multiply with the root currency
+        code to get the converted value."""
         lowercase_code = currency_code.lower()
         url = self.URL_TEMPLATE % lowercase_code
 
@@ -79,13 +87,18 @@ class InMemoryCachedCurrencyExchangers(object):
         self.data_source = data_source
 
     def get_exchanger_for_currency(self, currency_code):
-        """Gets a currency exchanger from the in-memory cache (if it exists and is valid). If a valid
-        exchanger is not found, one is created, and cached, using data downloaded from floatrates.com"""
+        """Gets a currency exchanger from the in-memory cache (if it exists and
+        is valid).
+
+        If a valid exchanger is not found, one is created, and cached, using
+        data downloaded from floatrates.com"""
 
         candidate = None
         lowercase_code = currency_code.lower()
 
-        if lowercase_code in self.cached_exchangers: candidate = self.cached_exchangers[lowercase_code]
+        if lowercase_code in self.cached_exchangers:
+            candidate = self.cached_exchangers[lowercase_code]
+
         if candidate is not None and candidate.is_valid(): return candidate
 
         rates = self.data_source.download_rates(currency_code)
@@ -95,8 +108,11 @@ class InMemoryCachedCurrencyExchangers(object):
         return candidate
 
 class CurrencyExchanger(object):
-    """An in-memory currency exchanger that downloads data from http://www.floatrates.com/json-feeds.html.
-    If no exchange rate information is found, it is downloaded and cached in-memory, and not re-downloaded.
+    """An in-memory currency exchanger that downloads data from
+    http://www.floatrates.com/json-feeds.html.
+
+    If no exchange rate information is found, it is downloaded and cached
+    in-memory, and not re-downloaded.
     """
 
     def __init__(self, base_currency_code, rate_information):
@@ -123,6 +139,3 @@ class CurrencyExchanger(object):
             return amount_in_base_currency * rate
         except KeyError:
             raise MissingCurrencyException(target_currency_code)
-
-
-

@@ -3,17 +3,19 @@
 import json
 import logging
 
-from flask import Flask
-from flask import request
-from flask import jsonify
-from flask_injector import FlaskInjector
-from flask_injector import singleton
+from flask import (
+    Flask, request, jsonify
+)
+
+from flask_injector import (
+    FlaskInjector, singleton
+)
 
 from .data_querier import DataQuerier
-from .currency_exchanger import CurrencyExchanger
-from .currency_exchanger import MissingCurrencyException
-from .currency_exchanger import InMemoryCachedCurrencyExchangers
-from .currency_exchanger import FloatRatesCurrencyDataSource
+
+from .currency_exchanger import (
+    CurrencyExchanger, MissingCurrencyException, InMemoryCachedCurrencyExchangers, FloatRatesCurrencyDataSource
+)
 
 def create_injector_modules(logger, country_data_object):
     """Generate modules for the 'injector' dependency injection.
