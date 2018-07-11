@@ -6,6 +6,11 @@ class DataQuerier(object):
     def __init__(self, data_object):
         self.data_object = data_object
 
+    def get_known_currencies(self):
+        nested_list = map(lambda entry: [] if entry["iso4217_currencies"] is None else entry["iso4217_currencies"].split(","), self.data_object)
+        flat_list = [y for x in nested_list for y in x]
+        return sorted(set(flat_list))
+
     def get_currencies(self, country_code):
         for entry in self.data_object:
             if entry["iso3166_country_code"] == country_code:
