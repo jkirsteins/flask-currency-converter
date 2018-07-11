@@ -7,6 +7,22 @@
 - currency codes are always 3-characters long (**ISO4217**)
 - country codes are always 2-characters long (**ISO3166**)
 
+## Notes on configuration
+
+Configuration is done via environment variables. The project supports .env files. 
+
+The required configuration keys are:
+
+- SECRET_KEY (for Flask sessions)
+- COUNTRY_DATA_JSON - a filename which contains country/currency data (see below for more details)
+
+### Example .env file
+
+    $ cat .env 
+    SECRET_KEY=secret_stuff
+    COUNTRY_DATA_JSON=countries_processed.json
+
+
 ## Notes for Future Revisions
 
 - the list of known currencies comes from a different source than the actual exchange rates,
