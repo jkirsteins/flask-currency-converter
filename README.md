@@ -1,5 +1,17 @@
 # Currency converter
 
+## Running the project
+
+Run it by using the provided ./rundev.sh script (it will enable the 
+development environment, and save some typing)
+
+## Testing the project
+
+Please use the provided ./test.sh script, and execute it from the root folder.
+
+If you try to test without it, some of the test
+files will be unable to find and import modules from 'app'.
+
 ## Conventions / Glossary
 
 - the terms "territory" and "country" are used interchangeably (e.g. Åland Islands are not a country,
