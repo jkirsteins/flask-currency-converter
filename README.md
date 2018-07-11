@@ -20,6 +20,7 @@
 ### HTML / User-facing
 
 - the address `/ui/convert` will allow a user to convert between two currencies
+- the address `/ui/country_lookup` will allow a user to lookup countries based on a currency
 
 ### API
 

@@ -11,6 +11,21 @@ from .currency_exchanger import (
 
 bp = Blueprint('ui', __name__, url_prefix='/ui')
 
+@bp.route('/country_lookup', methods=('GET', 'POST'))
+def country_lookup(data_querier: DataQuerier):
+    """View for looking up countries that use a given currency."""
+
+    base_currency_code = request.form.get('base_currency_code')
+    found_countries = None
+
+    if request.method == 'POST':
+        found_countries = data_querier.get_countries(base_currency_code)
+
+    return render_template('country_lookup.html',
+        base_currency_code=base_currency_code,
+        known_currencies=data_querier.get_known_currencies(),
+        found_countries=found_countries)
+
 @bp.route('/convert', methods=('GET', 'POST'))
 def convert(currency_exchanger_source: InMemoryCachedCurrencyExchangers, data_querier: DataQuerier):
     """View for converting between currencies."""
